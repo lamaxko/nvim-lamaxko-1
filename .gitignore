@@ -1,0 +1,3 @@
+echo "plugin/packer_compiled.lua" >> .gitignore
+echo "*.log" >> .gitignore
+
