@@ -42,9 +42,7 @@ return {
         }
 
         -- Footer
-        dashboard.section.footer.val = {
-            "Config by - Lamaxko",
-        }
+        dashboard.section.footer.val = { vim.fn.getcwd() }
 
         -- Setup Alpha
         alpha.setup(dashboard.opts)
