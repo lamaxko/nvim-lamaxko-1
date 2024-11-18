@@ -35,7 +35,7 @@ return {
         -- Custom Buttons
         dashboard.section.buttons.val = {
             dashboard.button("t", "  Tree view", ":Neotree filesystem reveal right<CR>"),
-            dashboard.button("f", "  Find file", ":Telescope find_files<CR>"),
+            dashboard.button("i", "  Find file", ":Telescope find_files<CR>"),
             dashboard.button("g", "  Grep file", ":Telescope live_grep<CR>"),
             dashboard.button("c", "  Config", ":Neotree filesystem reveal right ~/.config/nvim/<CR>"),
             dashboard.button("q", "  Quit", ":qa<CR>"),
