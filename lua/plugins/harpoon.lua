@@ -14,7 +14,7 @@ return {
             -- Keybindings
             vim.keymap.set("n", "<leader>a", mark.add_file, { desc = "Add file to Harpoon" }) -- Add file
             vim.keymap.set("n", "<leader>m", ui.toggle_quick_menu, { desc = "Toggle Harpoon menu" }) -- Quick menu
-            vim.keymap.set("n", "<C-h>", ui.nav_prev, { desc = "Navigate to previous Harpoon mark" }) -- Previous file
+            vim.keymap.set("n", "<C-g>", ui.nav_prev, { desc = "Navigate to previous Harpoon mark" }) -- Previous file
             vim.keymap.set("n", "<C-t>", ui.nav_next, { desc = "Navigate to next Harpoon mark" }) -- Next file
         end,
     },
